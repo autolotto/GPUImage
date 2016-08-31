@@ -1,3 +1,7 @@
+# Discontinued Experimental Code #
+
+Thank you for dropping by, fellow coder! I'm no longer working on this project and, unfortunately, I cannot help you deal with the issues that you may encounter when compiling or running the code here.
+
 # GPUImage framework #
 
 Brad Larson
