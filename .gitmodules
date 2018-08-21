@@ -1,0 +1,3 @@
+[submodule "EGL"]
+	path = EGL
+	url = https://github.com/appden/EGL_mac_ios.git

@@ -7,8 +7,9 @@
 #ifndef _GPUImageOutput_h_
 #define _GPUImageOutput_h_
 
+#include "OpenGL.h"
 #include "Platform.h"
-#include <GLES2/gl2.h>
+
 #include <vector>
 
 // Forward declarations

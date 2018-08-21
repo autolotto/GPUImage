@@ -7,10 +7,10 @@
 #ifndef _GPUImageOpenGLESContext_h_
 #define _GPUImageOpenGLESContext_h_
 
+#include "OpenGL.h"
 #include "Platform.h"
 #include "Common.h"
-#include <GLES2/gl2.h>
-#include <EGL/egl.h>
+
 #include <string>
 
 // Forward Declarations

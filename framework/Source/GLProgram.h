@@ -8,7 +8,8 @@
 #ifndef _GLProgram_h_
 #define _GLProgram_h_
 
-#include <GLES2/gl2.h>
+#include "OpenGL.h"
+
 #include <string>
 #include <vector>
 

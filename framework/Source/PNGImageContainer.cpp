@@ -4,9 +4,10 @@
  *
  */
 
-#include "PNGImageContainer.h"
-#include <GLES2/gl2.h>
 #include <algorithm>
+
+#include "PNGImageContainer.h"
+#include "OpenGL.h"
 #include "FreeImage.h"
 #include "Common.h"
 

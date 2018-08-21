@@ -6,10 +6,10 @@
  
 #ifndef _GPUImageInput_h_
 #define _GPUImageInput_h_
- 
+
+#include "OpenGL.h"
 #include "Platform.h"
 #include "Common.h"
-#include <GLES2/gl2.h>
 
 class GPUImageInput 
 {

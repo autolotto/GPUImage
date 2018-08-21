@@ -141,8 +141,8 @@ void GPUImageAverageColor::initializeOutputTexture()
     {
         //            gpu_float_size currentStageSize = gpu_float_sizeMake(ceil(inputTextureSize.width / pow(4.0, currentReduction + 1.0)), ceil(inputTextureSize.height / pow(4.0, currentReduction + 1.0)));
         gpu_float_size currentStageSize = {
-            floor(inputTextureSize_.width / pow(4.0, currentReduction + 1.0)), 
-            floor(inputTextureSize_.height / pow(4.0, currentReduction + 1.0))
+            floor(inputTextureSize_.width / powf(4.0, currentReduction + 1.0)),
+            floor(inputTextureSize_.height / powf(4.0, currentReduction + 1.0))
         };
 
         if ( (currentStageSize.height < 2.0) || (currentStageSize.width < 2.0) )
